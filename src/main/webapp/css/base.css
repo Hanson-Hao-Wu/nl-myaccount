@@ -1,0 +1,215 @@
+body {
+	padding-top: 50px;
+	color: #5a5a5a;
+}
+
+footer {
+	height: 50px;
+	margin-top: 50px;
+	padding: 15px 0;
+	background-color: #222;
+	border-color: #080808;
+}
+/* for form body and form aside */
+.form_body, .form_aside {
+	display: inline-block;
+}
+
+.glyphicon.glyphicon-asterisk {
+	font-size: 12px;
+}
+
+.form_body {
+	width: 75%;
+}
+
+.form_aside {
+	float: right;
+	margin-top: 130px;
+	width: 24%;
+}
+
+.container {
+	width: auto;
+}
+
+.highlight {
+    background-color: #f7f7f9;
+    border: 1px solid #e1e1e8;
+    border-radius: 4px;
+    margin: 20px 0 30px;
+	padding: 20px 15px 20px;
+}
+
+.input-group-addon {
+	background-color: transparent;
+	/* border:1px solid transparent; */
+}
+
+
+#ui-datepicker-div{
+	z-index: 2!important;
+}
+
+.ui-datepicker-header, .ui-datepicker-title, .ui-datepicker-prev, .ui-datepicker-next{
+	background-color: #337ab7;
+    border-color: #337ab7;
+    color: #fff;
+}
+.ui-widget-header{
+	background-image: none;	
+}
+
+
+.fa-asterisk {
+	color: red;
+}
+
+.from-space .col-sm-6, .from-space .col-sm-12 {
+	margin-bottom: 10px;
+}
+
+.block{
+	margin-bottom:20px;
+}
+
+/* logout button */
+.logout, .btn-highlight{
+	padding: 6px 30px;
+    float: right;
+}
+/* submit button */
+
+.nl-submit .btn{
+    margin: 15px;
+    padding: 6px 30px
+}
+/* bold */
+.bold, .bold *{
+	font-weight: bold !important;
+}
+/* table-col-6 */
+.table-col-6>thead:not(:first-child){
+	display: none;
+}
+.table-col-6 th>label,.table-col-6 td>label{
+	padding: 7px 12px;
+	font-weight: inherit;
+	margin-bottom: 0;
+}
+/* Member and price list */
+.nl-title{
+	font-size: 1.3em;
+	font-weight: bold;
+}
+.nl-memberlist, .nl-memberlist label, .nl-price-list label{
+	margin-bottom: 0;
+}
+.nl-memberlist label, .nl-price-list label{
+	font-weight: normal;
+}
+.nl-price-list .list-group-item{
+	border:1px solid transparent;
+}
+
+.nl-input label{
+	width:16.66666667%;;
+}
+
+/* form error */
+em[id$="-error"], em[id^="parsley-id"] {
+	margin-bottom: 0;
+}
+/* don't know why I need this */
+em#error {
+	margin-bottom: 0;
+}
+
+/* RMA */
+.rma-links>.col-sm-6{
+	margin-bottom: 20px;
+}
+
+.panel-body {
+	padding: 0;
+}
+
+.rma-links>.col-sm-6>a {
+	font-size: 1.3em;
+}
+
+.btn-myaccount {
+	width: 100%;
+}
+
+.btn-danger {
+	margin-top: 15px;
+}
+.btn-danger{
+	margin-top: 0;
+}
+
+@media ( min-width : 1170px) {
+	.nl-content {
+		margin: 0 auto;
+		width: 1200px;
+		min-height: 470px
+	}
+}
+
+@media ( min-width : 768px) {
+	.nl-submit {
+		float: right;
+	}
+}
+
+@media ( max-width : 1170px) {
+	.form_body {
+		width: 100%
+	}
+	.form_aside {
+		display: none;
+	}
+}
+
+@media ( max-width : 970px) {
+}
+
+@media ( max-width : 768px) {
+	/* table-col-6 */
+	.table-col-6{
+		border-width: 0 !important;
+	}
+ 	.table-col-6>thead, .table-col-6>tbody{
+		display: inline-block !important;
+		border-top: 3px solid #ddd;
+		margin-bottom: 10px;
+		position: relative;
+	}
+	.table-col-6>thead{
+		width: 45%;
+	}
+	.table-col-6 tbody{
+		width: 55%;
+		float: right;
+	}
+	.table-col-6 th,.table-col-6 td{
+		border-width: 0px !important;
+		display: inline-block;
+		width: 100%;
+		position: relative;
+	}
+	.table-col-6 td{
+		padding-left: 10px !important; 
+	}
+	.table-col-6 th{
+		padding-left: 10% !important; 
+	}
+	/* submit button */
+	.form-horizontal .nl-submit .btn:LAST-CHILD{
+		float: right;
+	}
+	.btn-highlight{
+		width: 100%;
+	}
+}
